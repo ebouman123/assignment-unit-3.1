@@ -73,6 +73,10 @@ console.log('Added an animal to end,', animalArray);
 //      Similar to above, add the `dessert` to the end of your `favoriteFoods`
 //      array. (How can you be 100% certain this worked? 🤔)
 
+let dessert = `mochi`
+favoriteFoods.push(dessert);
+console.log(`Added a dessert to the end, `, favoriteFoods);
+console.log(`The new length of favoriteFoods is: `, favoriteFoods.length);
 
 // Example: Add to the beginning of an array using the Array.unshift method.
 let animalToUnshift = 'walrus';
@@ -83,6 +87,10 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 //      an entree that you enjoy.
 //      Add the `entree` to the beginning of your `favoriteFoods` array.
 
+let entree = `ribs`
+favoriteFoods.unshift(entree);
+console.log(`Added an entree to the beginning, `, favoriteFoods);
+console.log(`The new length of favoriteFoods is: `, favoriteFoods.length);
 
 // Example: Remove the last animal by using the Array.pop method.
 let removedAnimal = animalArray.pop();
